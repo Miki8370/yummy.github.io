@@ -1,0 +1,33 @@
+@media(max-width: 500px){
+    body{
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    nav{
+        display: none;
+    }
+    .cards{
+        display: block;
+    }
+    .Conttact{
+        text-align: center;
+    }
+    .conntactList{
+        margin: 0;
+        padding-top: 15px;
+    }
+    .lit1 li{
+        font-size: 0.8rem;
+        padding: 12px;
+        font-weight: bolder;
+    }
+    .list2{
+        padding: 2px;
+    }
+    .list2 img{
+        width: 25px;
+    }
+   .second button{
+    margin: 7px;
+   }
+}

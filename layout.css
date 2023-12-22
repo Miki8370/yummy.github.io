@@ -1,0 +1,331 @@
+@media(max-width: 805px){
+    .headerh1{
+        font-size: 1.5rem;
+    }
+    .headrList li{
+        font-size: 0.8rem;
+    }
+    .headButt{
+        width: 100px;
+        height: 30px;
+    }
+}
+@media(max-width: 641px){
+    .headerh1{
+        font-size: 1.3rem;
+    }
+    .headrList li{
+        font-size: 0.7rem;
+    }
+    .headButt{
+        width: 80px;
+        height: 20px;
+    }
+}
+@media(max-width: 573px){
+    .headerh1{
+        font-size: 1.1rem;
+    }
+    .headrList li{
+        font-size: 0.6rem;
+    }
+    .headButt{
+        width: 70px;
+        height: 20px;
+    }
+}
+@media(max-width: 514px){
+    .headerh1{
+        font-size: 1rem;
+    }
+    .headrList li{
+        font-size: 0.6rem;
+    }
+    .headButt{
+        width: 60px;
+        height: 18px;
+    }
+    #changeInput{
+        width: 400px;
+    }
+}
+@media(max-width: 635){
+    .lit1 li{
+        font-size: 1em;
+    }
+}
+.continer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #edefeb;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 8px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-decoration: overline underline;
+}
+header h1{
+    font-style: italic;
+    text-decoration: overline underline;
+}
+header button{
+    max-width: 150px;
+    min-height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #2b7a69;
+    color: white;
+    font-weight: bold;
+
+}
+.second{
+    text-align: center;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+
+}
+.second button{
+    width: 200px;
+    min-height: 35px;
+    border: none;
+    border-radius: 30px;
+}
+.second #butt1{
+    background-color: #2b7a69;
+    color: white;
+}
+.second #butt2{
+    color: #2b7a69;
+    background-color: white;
+}
+.heroImg{
+    max-width: 100%;
+    max-height: 100%;
+    width:1100px;
+    height: 618px;
+    border-radius: 30px;
+}
+.hero{
+    background: linear-gradient(#edefeb,#2b7a69);
+    text-align: center;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+
+}
+.cards{
+    display: flex;
+}
+.card{
+    margin: 12px;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    
+}
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+   
+}
+.card button{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #2b7a69;
+    color: white;
+    font-weight: bold;
+    
+}
+.pictures{
+    text-align: center;
+    box-sizing: border-box;
+
+    
+}
+.pic{
+    -webkit-column-count: 3;
+}
+.pic img{
+    max-width: 100%;
+    width: 430px;
+    border-radius: 50px;
+    padding-bottom: 60px;
+}
+.Unlock{
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #086784;
+    padding-bottom: 100px;
+    color: white;
+    box-sizing: border-box;
+
+}
+.Unlock h1{
+    padding-top: 120px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 3.3em;
+}
+.Unlock button{
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 10vh;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.about{
+    text-align: center;
+    max-width: 100%;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    background-image: url(images/gallery03.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.about article{
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.about h1{
+    font-weight: bolder;
+    font-size: 2em;
+}
+.about button{
+    background-color: #2b7a69;
+    width:150px;
+    height: 8vh;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 50px;
+}
+.conttactForm{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+
+}
+.conttactForm input{
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 8vh;
+    border-radius: 50px;
+    border: 1px solid rgba(206, 200, 200, 0.473);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 5px;
+}
+#changeInput{
+    max-width: 100%;
+    width: 400px;
+}
+.conttactForm h1{
+    font-weight: bolder;
+    font-size: 3em;
+}
+.conttactForm p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.Conttact{
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.Conttact ul li{
+    list-style: none;
+}
+.conntactList{
+    background-color: white;
+    margin-left: 80px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    border-radius: 60px;
+    padding-bottom: 30px;
+}
+.conntactList ul li a{
+    text-decoration: none;
+    color: #2b7a69;
+}
+.conntactList h1{
+    font-weight: bolder;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+.conntactList h4{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+footer{
+    text-align: center;
+    background-color: #2b7a69;
+    background-position: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+
+
+
+}
+footer img{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 25px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
